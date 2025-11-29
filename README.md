@@ -19,7 +19,6 @@ A **PPO agent** observes compact LiDAR-based features and **adapts the spacing g
 | **`ppo_gains_logging.py`** | ROS 2 node handling LiDAR processing, wall-following control, spacing estimation, IAE logging, and training callbacks. |
 | **`eval_ppo_gains.py`** | Custom Gymnasium environment (`UGV2GainEnv`), feature extractor, PPO training pipeline, and evaluation script. |
 | **`ppo_gains_*.zip`** | Trained PPO models (e.g., `ppo_gains_5.zip`, `ppo_gains_best.zip`). |
-| **`Adaptive__DRL_PID__Controller_Eslam.pdf`** | Project PDF describing the system. |
 
 ---
 
@@ -70,27 +69,7 @@ python3 eval_ppo_gains.py --eval 60 ppo_gains_best.zip
 Produces:
 - Time-normalized IAE
 - `path_plot_eval.png`
-- `IAE_compare.csv`
-
 ---
-
-## 📊 Logged Metrics
-
-`IAE_compare.csv` includes:
-1. Baseline wall IAE  
-2. Baseline spacing IAE  
-3. DRL wall IAE  
-4. DRL spacing IAE  
-
----
-
-## 📽️ Code & Video
-
-Source code (this repo)  
-Experiment video (add link):  
-```
-http://your-video-link-here
-```
 
 ---
 
@@ -104,11 +83,6 @@ http://your-video-link-here
   year    = {2024}
 }
 ```
-
----
-
-## 📄 License
-Add your preferred license (MIT / BSD / Apache‑2).  
 
 ---
 
