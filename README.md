@@ -2,7 +2,6 @@
 
 This repository contains the full implementation of the adaptive spacing-gain controller used in:
 
-**..., ..., ...**  
 *Minimalistic navigation for leader–follower robotic system using deep reinforcement learning for controller adaptation*,  
 Journal of Automation, Mobile Robotics and Intelligent Systems (JAMRIS), 2024.
 
@@ -76,7 +75,7 @@ Produces:
 ## 📚 Citation
 
 ```
-@article{...2024minimalistic,
+@article{...2025minimalistic,
   title   = {Minimalistic Navigation for Leader--Follower Robotic System Using Deep Reinforcement Learning for Controller Adaptation},
   journal = {Journal of Automation, Mobile Robotics and Intelligent Systems},
   year    = {2025}
