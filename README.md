@@ -2,12 +2,12 @@
 
 This repository contains the full implementation of the adaptive spacing-gain controller used in:
 
-**Eslam Mohamed, Armando Sousa, Filipe Santos**  
+**..., ..., ...**  
 *Minimalistic navigation for leader–follower robotic system using deep reinforcement learning for controller adaptation*,  
 Journal of Automation, Mobile Robotics and Intelligent Systems (JAMRIS), 2024.
 
 The project focuses on a **leader–follower (front–rear) robot pair** navigating a **wavy corridor**.  
-Both robots follow the wall using a **simple P-controller**, and the *front robot* must additionally keep a safe spacing distance to the rear robot.  
+*Front robot* must keep a safe spacing distance to the rear robot.  
 A **PPO agent** observes compact LiDAR-based features and **adapts the spacing gain online**, improving formation stability without requiring any global localization, mapping, or inter-robot communication.  
 
 ---
@@ -27,7 +27,7 @@ A **PPO agent** observes compact LiDAR-based features and **adapts the spacing g
 - Fully reactive **LiDAR-only** navigation—no maps, GPS, SLAM, or communication needed.
 - PPO agent outputs **1 scalar action** → mapped to spacing gain.
 - Internal controller remains a simple **P-controller**.
-- Custom reward function encouraging spacing stability and smoothness.
+- Custom reward function encouraging spacing safeness and smoothness.
 - Online logging of wall and spacing IAEs.
 - Optional real-time path visualization.
 
@@ -76,18 +76,14 @@ Produces:
 ## 📚 Citation
 
 ```
-@article{mohamed2024minimalistic,
+@article{...2024minimalistic,
   title   = {Minimalistic Navigation for Leader--Follower Robotic System Using Deep Reinforcement Learning for Controller Adaptation},
-  author  = {Mohamed, Eslam and Sousa, Armando and Santos, Filipe},
   journal = {Journal of Automation, Mobile Robotics and Intelligent Systems},
-  year    = {2024}
+  year    = {2025}
 }
 ```
 
 ---
 
 ## 👤 Author
-
-**Eslam Mohamed**  
-INESC TEC & FEUP — University of Porto  
-Email: *eng.eslam.m.f@gmail.com*
+...
